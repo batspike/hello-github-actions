@@ -11,6 +11,7 @@ inputs:
 runs:
   using: "docker"
   image: "docker://alpine:latest"
+  entrypoint: 'entrypoint.sh'
 
 branding:
   icon: "mic"
