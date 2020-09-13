@@ -10,8 +10,7 @@ inputs:
 
 runs:
   using: "docker"
-  image: "docker://alpine:latest"
-  entrypoint: "sh -c ls -R"
+  image: "Dockerfile"
 
 branding:
   icon: "mic"
