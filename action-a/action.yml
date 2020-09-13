@@ -3,7 +3,7 @@ description: "Greet someone"
 author: "samlau.sam@gmail.com"
 
 inputs:
-  MY_NAME:
+  my_name:
     description: "Who to greet"
     required: true
     default: "World"
